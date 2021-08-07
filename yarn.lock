@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@axe-core/react@^4.2.2":
+  "integrity" "sha512-qmh/1DGFrN9G7NqTNARA4aT1k37mUfyb5syWkEQN7iqo77VoO2GCsvVyfLystr8uwJYYihW17+Lgl0UTiz8q2Q=="
+  "resolved" "https://registry.npmjs.org/@axe-core/react/-/react-4.2.2.tgz"
+  "version" "4.2.2"
+  dependencies:
+    "axe-core" "^4.2.3"
+    "requestidlecallback" "^0.3.0"
+
 "@babel/cli@^7.14.8":
   "integrity" "sha512-lcy6Lymft9Rpfqmrqdd4oTDdUx9ZwaAhAfywVrHG4771Pa6PPT0danJ1kDHBXYqh4HHSmIdA+nlmfxfxSDPtBg=="
   "resolved" "https://registry.npmjs.org/@babel/cli/-/cli-7.14.8.tgz"
@@ -1906,7 +1914,7 @@
   "resolved" "https://registry.npmjs.org/atob/-/atob-2.1.2.tgz"
   "version" "2.1.2"
 
-"axe-core@^4.0.2":
+"axe-core@^4.0.2", "axe-core@^4.2.3":
   "integrity" "sha512-5LMaDRWm8ZFPAEdzTYmgjjEdj1YnQcpfrVajO/sn/LhbpGp0Y0H64c2hLZI1gRMxfA+w1S71Uc/nHaOXgcCvGg=="
   "resolved" "https://registry.npmjs.org/axe-core/-/axe-core-4.3.2.tgz"
   "version" "4.3.2"
@@ -6158,6 +6166,11 @@
   "integrity" "sha1-jcrkcOHIirwtYA//Sndihtp15jc="
   "resolved" "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz"
   "version" "1.6.1"
+
+"requestidlecallback@^0.3.0":
+  "integrity" "sha1-b7dOBzP5DfP6pIOPn2oqX5t0KsU="
+  "resolved" "https://registry.npmjs.org/requestidlecallback/-/requestidlecallback-0.3.0.tgz"
+  "version" "0.3.0"
 
 "require-directory@^2.1.1":
   "integrity" "sha1-jGStX9MNqxyXbiNE/+f3kqam30I="

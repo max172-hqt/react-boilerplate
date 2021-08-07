@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/max172-hqt/react-boilerplate#readme",
   "devDependencies": {
+    "@axe-core/react": "^4.2.2",
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
