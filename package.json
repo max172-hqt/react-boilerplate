@@ -7,7 +7,7 @@
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack serve --config webpack.config.dev.js",
     "dev:hot": "webpack serve --hot --config webpack.config.dev.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -22,12 +22,16 @@
   "homepage": "https://github.com/max172-hqt/react-boilerplate#readme",
   "devDependencies": {
     "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.9",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "babel-jest": "^27.0.6",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.0.6",
     "style-loader": "^3.2.1",
     "webpack": "^5.48.0",
     "webpack-bundle-analyzer": "^4.4.2",
