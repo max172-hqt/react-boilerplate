@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <h1>Hello world!!!</h1>
+      <img src="ice" alt="" />
       <h2 className={count > 6 ? 'warning' : null}>Count: {count}</h2>
       <button onClick={() => setCount(count + 1)}>+</button>
       <button onClick={() => setCount(count - 1)}>-</button>
