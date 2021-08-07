@@ -4,5 +4,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import './styles.css'
+import DefaultErrorBoundary from './DefaultErrorBoundary'
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(
+  <DefaultErrorBoundary>
+    <App />
+  </DefaultErrorBoundary>,
+  document.getElementById('app')
+)
